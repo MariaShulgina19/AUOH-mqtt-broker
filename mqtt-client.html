@@ -6,9 +6,9 @@
 
 <script>
     let options = {
-        host: 'mqtt-broker-maria.herokuapp.com',  //'localhost',
-        port: 443, //8081,
-        protocol:  'wss'  //'ws'
+        host:localhost, //'mqtt-broker-maria.herokuapp.com',
+        port: 8081,  //443,
+        protocol:  'ws'  //'wss'
     };
     let client = mqtt.connect(options)
     client.on('connect', () => {

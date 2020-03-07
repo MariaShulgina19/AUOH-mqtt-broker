@@ -2,7 +2,7 @@
 const aedes = require('aedes')() //need to install npm install aedes
 const httpServer = require('http').createServer()
 const ws = require('websocket-stream')
-const port = process.env.PORT || 8081; //port chanded 
+const port = process.env.PORT ||  8081; //port chanded process.env.PORT get acsess to any free port
 //add "srart": "node app.js  "
 
 ws.createServer({ server: httpServer }, aedes.handle)
