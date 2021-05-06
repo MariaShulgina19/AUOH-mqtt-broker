@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/MariaShulgina19/AUOH-mqtt-broker#readme",
   "dependencies": {
-    "aedes": "^0.40.1",
+    "aedes": "^0.42.1",
     "websocket-stream": "^5.5.2"
   }
 }
